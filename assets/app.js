@@ -1,6 +1,7 @@
 // assets/app.js
+<script src="../assets/app.js?v=3" defer></script>
 (function () {
-  const REPO = "TRUFFLEDRIFT"; // must match the folder name in your URL
+  const REPO = "TruffleDrift"; // must match the folder name in your URL
 
   // Map UI language -> Salesforce-supported language
   const ESW_LANG_MAP = { en: "en_US", fr: "fr", de: "de" };
@@ -161,7 +162,7 @@
   (function setLanguageBackground() {
     const bg = document.querySelector(".bg");
     if (!bg) return;
-    const base = getBasePath(); // e.g. "/TRUFFLEDRIFT/"
+    const base = getBasePath(); // e.g. "/TruffleDrift/"
     const lang = context.language; // UI language for asset names
     const pick = (l) => `${base}assets/Truffle_${l}.png`;
     let url = pick("en");
