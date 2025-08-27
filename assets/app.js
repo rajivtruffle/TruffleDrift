@@ -1,5 +1,4 @@
 // assets/app.js
-<script src="../assets/app.js?v=3" defer></script>
 (function () {
   const REPO = "TruffleDrift"; // must match the folder name in your URL
 
